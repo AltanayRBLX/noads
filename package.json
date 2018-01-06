@@ -2,9 +2,9 @@
   "name": "noads",
   "version": "0.0.2",
   "description": "",
-  "main": "noads.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node noads.js"
+    "test": "node index.js"
   },
   "author": "Altanay#3606",
   "license": "ISC",
