@@ -1,0 +1,14 @@
+{
+  "name": "noads",
+  "version": "0.0.2",
+  "description": "",
+  "main": "noads.js",
+  "scripts": {
+    "test": "node noads.js"
+  },
+  "author": "Altanay#3606",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
