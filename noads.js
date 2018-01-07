@@ -28,7 +28,7 @@ client.on('message', msg => {
         }
     }
 
-    
+    //Ver
 });
   
 client.login('Mzk5MTgwNjQ0NzIwMDUwMTc2.DTOAOQ.8TciHY1C5d_y913F9rNeTq_axGc');
