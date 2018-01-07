@@ -2,6 +2,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = 'na!'
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setGame("No Ads | 1/1 | " + " na!yardım.", 'https://www.twitch.tv/turkishtr2', 1);
