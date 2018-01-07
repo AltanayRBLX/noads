@@ -19,7 +19,7 @@ client.on('message', msg => {
     if (msg.content.toLowerCase() === prefix + 'yardım') {
      msg.channel.send('Bu bot bir Cube projesidir tüm hakları saklıdır.Yapabildiklerim ise:Discord Sunucu Reklamlarından Sunucunuzu koruma altına alırım.')
     }
-    if (msg.content.toLowerCase().indexOf("https") > -1) {
+    if (msg.content.toLowerCase().indexOf("https:/") > -1) {
        if (!msg.author.bot) false
            msg.react("😡")
            msg.delete()
