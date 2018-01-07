@@ -10,7 +10,6 @@ client.on('ready', () => {
 
 client.on('message', msg => {
     if (msg.content.toLowerCase().indexOf("discord.gg/") > -1) {
-        if (!msg.author.bot) false
             msg.react("😡")
             msg.delete()
             msg.channel.send("<@" + msg.author.id + ">, **Bence reklam yapmayı bırak.Çünkü ben bu iş için görevlendirildim.**");
