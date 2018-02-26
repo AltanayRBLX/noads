@@ -17,6 +17,11 @@ client.on('message', msg => {
             msg.delete()
             msg.channel.send("<@" + msg.author.id + ">, **Bence reklam yapmayı bırak.Çünkü ben bu iş için görevlendirildim.**");
         }
+     if (msg.content.toLowerCase().indexOf("https:/") > -1) {
+            msg.react("😡")
+            msg.delete()
+            msg.channel.send("<@" + msg.author.id + ">, **Bence reklam yapmayı bırak.Çünkü ben bu iş için görevlendirildim.**");
+        }
     //Ver
 });
   
